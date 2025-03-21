@@ -1,1 +1,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #6D83F2, #B06AB3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

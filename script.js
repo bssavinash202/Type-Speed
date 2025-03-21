@@ -58,6 +58,7 @@ let border = document.getElementById('text-container')
  }
  function stopTime(){
     clearInterval(interval);
+    flag=false;
 }
 function resetTimer() {
     clearInterval(interval);
@@ -66,7 +67,9 @@ function resetTimer() {
     min = 0;
     document.getElementById('display').innerText = "00 : 00 : 000";
     flag = false;
+    clearInput()
 }
+
 let str=""
 let ele = document.getElementById('text')
 const display=(arr)=>{
@@ -114,5 +117,6 @@ const typedText=()=>{
         border.style.border = "5px solid red"
     }
 }
+
 
 
